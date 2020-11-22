@@ -71,7 +71,7 @@ jobs:
         ./scripts/feeds update -a
         ./scripts/feeds install -a
         ./scripts/feeds install -a
-    - name: Configuration Customization - Build_Newifi_D2
+    - name: Configuration Customization - Build_hiwifi_hc5962
       env:
         CONFIG_FILE: 'hiwifi_hc5962.config'
       run: |
